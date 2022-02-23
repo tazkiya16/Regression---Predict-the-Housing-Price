@@ -1,6 +1,6 @@
 # Regression - Predict the Housing Price
 # Introduction
-Repository ini mengenai prediksi harga perumahan di Boston dengan berberapa fitur pendukung. Selanjutnya data
+The repository is about predicting housing price in Boston which have some supporting features. 
 
 # Data Understanding
 - Data of Predict the Housing Price in Boston
@@ -34,4 +34,4 @@ Code Used:
 - Packages: readr, caTools, glmnet, psych, dplyr
 
 # Model Description
-The models were used is Ridge and Lasso Regression.
+The models were used is Ridge and Lasso Regression for predict of housing price in Boston. The multicollinearity were found between rad and tax features, hence column of rad feature was dropped. Models are trained with multiple lambda which have the same values for Ridge and Lasso. The RMSE results are 4.93 on validation set and 4.80 on test set.
